@@ -1,0 +1,16 @@
+stages {
+    stage("code") {
+        steps {
+            echo ("This is cloning the code")
+          }
+     }
+    stage("build") {
+         steps {
+             echo ("This is building the code")
+          }
+     }
+     stage ("test") {
+          steps {
+              echo ("This is testing the code ")
+           }
+      }
